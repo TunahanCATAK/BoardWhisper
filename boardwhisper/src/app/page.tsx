@@ -3,8 +3,6 @@
 import Head from "next/head";
 import dynamic from 'next/dynamic';
 
-import { Chessboard } from 'react-chessboard';
-
 const ChessBoardPreview = dynamic(() => import('./components/chess-board-preview'), {
   ssr: false,
 });
@@ -54,7 +52,6 @@ export default function Home() {
         <p className="text-gray-300 mb-2">
           <em>Position (White to move):</em> <code>r3r1k1/pp3ppp/2n2b2/q2p4/2pP4/2N1PN2/PP1BBPPP/R2Q1RK1 w - - 0 1</code>
         </p>
-
         <ChessBoardPreview fen="r3r1k1/pp3ppp/2n2b2/q2p4/2pP4/2N1PN2/PP1BBPPP/R2Q1RK1 w - - 0 1" />
         <div className="bg-gray-800 p-4 rounded-xl text-sm text-gray-200">
           Your move <strong>Rad1</strong> is natural, aiming to pressure the d5 pawn. However, a stronger plan here is <strong>e4</strong>,
