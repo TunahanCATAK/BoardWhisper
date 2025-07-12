@@ -54,7 +54,7 @@ export default function Home() {
         </p>
         <ChessBoardPreview fen="r3r1k1/pp3ppp/2n2b2/q2p4/2pP4/2N1PN2/PP1BBPPP/R2Q1RK1 w - - 0 1" />
         <div className="bg-gray-800 p-4 rounded-xl text-sm text-gray-200">
-          Your move <strong>Rad1</strong> is natural, aiming to pressure the d5 pawn. However, a stronger plan here is <strong>e4</strong>,
+          Your move <strong>Qc2 and Rad1</strong> is natural, aiming to pressure the d5 pawn. However, a stronger plan here is <strong>e4</strong>,
           striking in the center before Black can regroup. Notice how Black’s queen and bishop both eye d4, but lack support behind them.
           If you open the center, your bishops dominate. After <code>1. e4! dxe4 2. Nxe4 Qf5</code>, you can play <strong>Nxf6+</strong>,
           and the position explodes in your favor. Positional concepts: central control, piece activity, and initiative.
