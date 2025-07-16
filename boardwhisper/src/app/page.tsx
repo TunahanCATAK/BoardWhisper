@@ -52,12 +52,12 @@ export default function Home() {
         <p className="text-gray-300 mb-2">
           <em>Position (White to move):</em> <code>r3r1k1/pp3ppp/2n2b2/q2p4/2pP4/2N1PN2/PP1BBPPP/R2Q1RK1 w - - 0 1</code>
         </p>
-        <ChessBoardPreview fen="r3r1k1/pp3ppp/2n2b2/q2p4/2pP4/2N1PN2/PP1BBPPP/R2Q1RK1 w - - 0 1" />
+        <ChessBoardPreview fen="r3nrk1/1q3ppp/p1b1pb2/8/1PB2B2/P1N3Q1/5PPP/2RR2K1 b - - 0 1" />
         <div className="bg-gray-800 p-4 rounded-xl text-sm text-gray-200">
-          Your move <strong>Qc2 and Rad1</strong> is natural, aiming to pressure the d5 pawn. However, a stronger plan here is <strong>e4</strong>,
-          striking in the center before Black can regroup. Notice how Black’s knight and bishop both eye d4, but lack support behind them.
-          If you open the center, your bishops dominate. After <code>1. e4! dxe4 2. Nxe4 Qf5</code>, you can play <strong>Nxf6+</strong>,
-          and the position explodes in your favor. Positional concepts: central control, piece activity, and initiative.
+            Material is even. 
+            White: King safety is good, rooks ideally placed in the center. Knight and Bishops good placed and well developed, Queen aiming at the black king. Good pawn structure for white as well, with no weak pawns and 2 pawn islands. 
+            Black: King safety is okay, the rooks are not connected which is a problem. The bishops for black are better than the white bishops as they occupy the two longest diagonals of the board. The knight is very passive on the eight rank and needs to be improved for the rooks to be connected.
+            The queen on b7 working together with the bishop on c6 creating a battery pointing at the white king looks fine too. Black has a good pawn structure on the kingside but on the queenside he has one isolated pawn which is weak. What should be the plan for black? to improve the knight, connect the rooks and get them to the center! So a good plan for black is 1...g6 followed by Ng7-Nf5 and then go Rfd8 and Rac8. After that all of blacks pieces are good placed and black is better.
         </div>
       </section>
 
